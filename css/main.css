@@ -1,0 +1,128 @@
+.redstrip {
+    background-color: red;
+}
+
+.redstrip a {
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+    font-family: Verdana;
+    font-weight: bold;
+    padding: 3px;
+}
+
+td.redstrip {
+    font-size: 10px;
+    font-family: Verdana;
+    font-weight: bold;
+    color: white;
+}
+
+body {
+    background-color: #790000;
+    font-family: Verdana, Helvetica, Arial;
+    padding: 0;
+    width: 440px;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.redstrip2 {
+    background-color: red;
+}
+
+td.redstrip2 {
+    font-size: 10px;
+    font-family: Verdana;
+    font-weight: bold;
+    color: white;
+    text-align: right;
+    padding-right: 3px;
+}
+
+.redstrip2 a {
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+    font-family: Verdana;
+    font-weight: bold;
+    padding: 3px;
+}
+
+.banner-image {
+    background-image: url(./img/banner.png);
+    width: 440px;
+    height: 68px;
+}
+
+img.banner {
+    width: 440px;
+    height: 68px;
+}
+
+.banner {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.banner-alert {
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: bold;
+    border: rgb(255, 0, 0) 1px solid;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.hmcontainer {
+    background-color: white;
+    border: red solid 1px;
+    margin-top: 5px;
+}
+
+td.hmcontainer2 {
+    font-size: 11px;
+    font-family: Verdana;
+    color: black;
+}
+
+.footer2 {
+    font-size: 10px;
+    font-family: Verdana;
+    color: black;
+    padding: 5px;
+}
+
+.UserProfile {
+    vertical-align: top;
+    padding-left: 5px;
+    word-break: break-word;
+}
+
+.redstrip3 {
+    background-color: rgb(255, 0, 0);
+}
+
+td.redstrip3 {
+    font-size: 10px;
+    font-family: Verdana;
+    font-weight: bold;
+    color: white;
+    padding-left: 3px;
+}
+
+.container {
+    display: grid;
+    align-content: center;
+    grid-template-columns: 0.1fr 0.1fr;
+    gap: 8px 5px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "media-player about"
+      "contact friends";
+    width: 440px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+
+
